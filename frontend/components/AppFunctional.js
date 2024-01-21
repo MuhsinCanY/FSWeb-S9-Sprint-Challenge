@@ -192,12 +192,16 @@ export default function AppFunctional(props) {
         <button id="left" onClick={() => ilerle(event)}>
           SOL
         </button>
-        <button id="up" onClick={() => ilerle(event)}>
+        <button
+          id="up"
+          data-testid="up"
+          onClick={() => ilerle(event)}
+        >
           YUKARI
         </button>
         <button id="right" onClick={() => ilerle(event)}>
           SAĞ
-        </button>
+     foo@bar.baz   </button>
         <button id="down" onClick={() => ilerle(event)}>
           AŞAĞI
         </button>
